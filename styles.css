@@ -1,0 +1,37 @@
+body{
+background-color: #0e3294;
+font-family: "Roboto Condensed", sans-serif;
+color: white;
+}
+
+h1{ 
+    text-align: center;
+    font-size: 3rem;
+}
+
+#container1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container2, #container3, #container4{
+    display: grid;
+    font-size: 1.25rem;
+}
+
+.btn{
+    background-color: white;
+    font-size: 25px;
+    border-radius: 8px;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+#links{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

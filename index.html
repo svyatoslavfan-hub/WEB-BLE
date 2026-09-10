@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>ESP32 BLE Test tool</h1>
+    <div id="container1">
+        <div id="container2">
+    <h2>Connect your BLE device</h2>
+    <button class="btn" id="bleOn">Connection On</button>
+    <button class="btn" id="bleOff">Connection Off</button>
+    <h2 id="bleStatus">Connection status:</h2>
+        </div>
+     
+        <div id="container3">
+    <h2>Turn on/off your LED</h2>
+    <button class="btn" id="ledOn">LED On</button>
+    <button class="btn" id="ledOff">LED Off</button>
+    <h2 id="ledStatus">LED status:</h2>
+        </div>
+
+     <div id="container4">   
+    <h2>Vibro motor control</h2>
+    <input type="range" id="pwmSlider" name="pwmValue" min="0" max="255"/>
+    <label for="pwmValue">PWM value </label>
+     </div>
+    </div> 
+
+    <div id="links">
+        <a href="mailto:svyatoslav.wbc@gmail.com">
+                <img src="./images/gmail.png" alt="gmail" height="75px"></a>
+        <a href="https://t.me/Svyatoslav_oles"><img src="./images/telegram.png" alt="telegram" height="65px"></a>  
+        
+     <footer>
+        <p> © All rights reserved</p>
+        </footer>
+    </div> 
+
+    <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>
